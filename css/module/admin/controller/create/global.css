@@ -1,0 +1,81 @@
+
+input, 
+textarea, 
+select {
+	border: 1px solid #BBB;
+	/*font: normal 10px Verdana;*/
+	
+	padding:6px;
+	outline: 0;
+	border-radius: 0;
+	
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+input[type=text] {
+	height: 12px;
+}
+
+input, textarea  {
+	min-width: 60%;
+}
+
+
+textarea  {
+	height: 200px;
+}
+
+
+form button,
+input[type=button], 
+input[type=submit], 
+.btn {
+	font: bold 12px Arial;
+	color: #88898c;
+	background: #000;
+	min-width: 100px;
+	height: 20px;
+	border: 0;
+	padding: 0;
+	/*margin: 10px 0 0 0;*/
+	text-align: center;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+form button,
+input[type=submit]				{ background: #000; color: #fff; }
+input[type=button]:hover		{ background: #333; }
+input[type=submit]:hover		{ background: #333; }
+input[type=button].browse, 
+input[type=button].select {
+	border: 1px solid #ECECEC;
+	text-align: left;
+	font-weight: normal;
+	min-width: 145px;
+}
+
+input.disabled 					{ opacity: 0.2; cursor: default; }
+input.disabled:hover 			{ cursor: default; background: #ccc; }
+input[type=file] 				{ height: auto !important; }
+
+
+
+/* SAVE AND CANCEL ELEMENTS FROM FORMS */
+#save-label, #cancel-label {display: none;}
+#save-element, #cancel-element { float:left; margin: 0; }
+
+
+/*
+input.location, input.date 		{ padding-left: 20px; }
+input.location 					{ background: url(../img/bgrActionIcons.gif) no-repeat 2px -46px; }
+input.date 						{ background: url(../img/bgrActionIcons.gif) no-repeat 2px 2px; width: 62px; }
+textarea 						{ resize: none; }
+select 							{ height: 20px; padding: 0; }
+textarea.focusout,
+input.focusout 					{ color: #ddd; }
+
+*/

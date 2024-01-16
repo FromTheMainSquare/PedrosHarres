@@ -1,0 +1,178 @@
+
+.clear {
+	clear:both;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+@font-face { 
+	font-family: 'GeoSans'; 
+	src: url('/fonts/GeosansLight.ttf'); 
+} 
+
+/** Globals */
+body {
+	background:url(../img/bgr_body.jpg) repeat-x 0 0 #eeeeee;
+	font: 11px/21px Verdana, Arial, Tahoma sans-serif;
+
+	color: #eee;
+	white-space: nowrap;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+
+/******************************
+        Content box
+*******************************/
+
+.contentBox {
+	background: #fff;
+	padding: 15px;
+	margin: 15px 0 0 0;
+}
+
+.contentBox h2		{ border-bottom: 1px solid #CCCCCC; margin:0px 0px 10px 0px; }
+.contentBox h4 		{ margin-bottom: 10px; }
+.contentBox .date 	{ float: right; }
+.contentBox .row 	{ margin:5px 0px 5px 0px; }
+
+
+/******************************
+        Header
+*******************************/
+
+#header {
+	height:50px;
+	background:#000;
+	margin:0;
+}
+
+#header .logo {
+	float: left;
+}
+
+#header .actions {
+	margin: 16px 43px 0 0;
+	float: right;
+	color: #fff;
+}
+
+#header .actions a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .actions a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#header #language a {
+	color: #fff;
+	font: 12px 'Century Gothic', Century, Verdana;
+	text-decoration: none;
+}
+
+#menu {
+	width:200px;
+	padding: 0;
+	margin: 0;
+	float:left;
+	background:#333;
+}
+
+
+/* Content */
+
+#content {
+	color: #111;
+	padding: 20px;
+	margin: 0;
+	float:left;
+	display:block;
+}
+
+
+.titleBox {
+
+	font: 19px Georgia, Times, Arial sans-serif;
+	font-weight: normal;
+	color: #464646;
+	display: block;
+	letter-spacing: 0.1em;
+
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+.contentBox {
+	background: white;
+	padding: 15px 20px 15px 20px;
+}
+
+a,
+a:hover, 
+a:visited,
+a:active,
+a:hover { text-decoration: inherit; color:inherit;}
+
+a.active {
+	text-decoration: underline;
+}
+
+
+
+
+
+/* Action button */
+.btnAction {
+	display: inline;
+	padding: 8px 12px 8px 12px;
+	color: #777;
+	background: #eee;
+	font-weight: bold;
+	border: 1px solid #ddd;
+}
+
+.btnAction:hover {
+	color: #333;
+	background: #d6d6d6;
+	border: 1px solid #b1b1b1;
+}
+
+
+/* Action bar */
+#actionBar {
+	background: #f6f6f6;
+	border: 1px solid #ececec;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: auto;
+	white-space: nowrap;
+}
+
+#actionBar h1 {
+	float: left;
+	padding: 7px 0 7px 0;
+	margin: 0;
+}
+
+#actionBar a {
+	float: left;
+	margin: 0 2px 0 2px;
+}
+
+#actionBar.delete {
+	margin-top: 10px;
+	border: 1px solid #c41400;
+	background: #ee7e74;
+}
+
+
