@@ -642,3 +642,8 @@ body#wingspan section ul li a:visited
 {
 	color: #CCC;
 }
+
+#wingspan section .carousel .carousel-inner > .item > img, 
+#wingspan section .carousel .carousel-inner > .item > a > img{
+	margin-bottom: 100px;
+}
