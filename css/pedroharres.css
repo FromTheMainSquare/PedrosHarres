@@ -563,6 +563,18 @@ section .carousel .carousel-inner > .item > a > img{
 	max-height: 359px;
 }
 
+#wingspan section .carousel .carousel-inner > .item > img, 
+#wingspan section .carousel .carousel-inner > .item > a > img{
+	/*width: 100%;  use this, or not */
+	max-height: 450px;
+}
+
+#ertrinken section .carousel .carousel-inner > .item > img, 
+#ertrinken section .carousel .carousel-inner > .item > a > img{
+	/*width: 100%;  use this, or not */
+	max-height: 450px;
+}
+
 body#wingspan
 {
 	background: #000;
