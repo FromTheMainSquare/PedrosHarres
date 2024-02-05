@@ -642,3 +642,83 @@ body#wingspan section ul li a:visited
 {
 	color: #CCC;
 }
+
+body#ertrinken
+{
+	background: #000;
+
+	color:#ccc;
+	
+}
+
+body#ertrinken article
+{
+	margin-bottom: 100px;
+}
+
+body#ertrinken header
+{
+	color:#333;
+	
+}
+#ertrinken section
+{
+	background: black;
+}
+
+
+body#ertrinken section {
+	text-shadow: 0px 0px 3px #000;
+
+}
+
+#ertrinken section h2 {
+	text-transform:none;
+	margin: 0 0 0 0;
+
+}
+
+
+body#ertrinken section a,
+body#ertrinken section a:active,
+body#ertrinken section a:visited
+{
+	color: white;
+}
+
+body#ertrinken section a:hover
+{
+	color: gray;
+}
+
+body#ertrinken section ul li a
+{
+	color: #000000;
+}
+
+body#ertrinken section ul li a:hover,
+body#ertrinken section ul li a:active,
+body#ertrinken section ul li a:visited
+{
+	color: #0B0080;
+}
+
+
+body#ertrinken
+{
+	background: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
+
+body#ertrinken section ul li a,
+body#ertrinken section ul li a:hover,
+body#ertrinken section ul li a:active,
+body#ertrinken section ul li a:visited
+{
+	color: #CCC;
+}
