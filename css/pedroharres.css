@@ -539,6 +539,16 @@ section .carousel
 	background: #000;
 }
 
+section .carousel-item{
+	height: auto;
+	overflow: hidden;
+	width: 100%
+}
+
+section .carousel-item img{
+	width: 100%
+}
+
 section .carousel .carousel-inner > .item > img, 
 section .carousel .carousel-inner > .item > a > img{
 	/*width: 100%;  use this, or not */
