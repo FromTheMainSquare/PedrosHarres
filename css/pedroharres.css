@@ -557,8 +557,8 @@ section .carousel .carousel-inner > .item > a > img{
 	margin: auto;
 }
 
-body#mainsquare section .carousel .carousel-inner > .item > img,
-body#mainsquare section .carousel .carousel-inner > .item > a > img{
+#mainsquare section .carousel .carousel-inner > .item > img,
+#mainsquare section .carousel .carousel-inner > .item > a > img{
 	max-height: 431px;
 }
 
