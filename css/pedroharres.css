@@ -539,6 +539,7 @@ section .carousel
 	background: #000;
 }
 
+/*
 section .carousel-item{
 	height: auto;
 	overflow: hidden;
@@ -548,11 +549,17 @@ section .carousel-item{
 section .carousel-item img{
 	width: 100%
 }
+*/
 
 section .carousel .carousel-inner > .item > img, 
 section .carousel .carousel-inner > .item > a > img{
 	/*width: 100%;  use this, or not */
 	margin: auto;
+}
+
+#mainsquare section .carousel .carousel-inner > .item > img,
+#mainsquare section .carousel .carousel-inner > .item > a > img{
+	max-height: 431px;
 }
 
 #egomachine section .carousel .carousel-inner > .item > img, 
