@@ -1099,6 +1099,11 @@
     padding-right: 10px;
     padding-left: 10px;
   }
+  .navbar-scroll {
+    width: 200px;
+    height: 700px;
+    overflow-y: auto;
+  }
 }
 
 @media (min-width: 980px) {
@@ -1107,3 +1112,5 @@
     overflow: visible !important;
   }
 }
+
+
