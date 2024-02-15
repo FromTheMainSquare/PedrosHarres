@@ -1232,7 +1232,6 @@ ol ol {
 .list-unstyled {
   padding-left: 0;
   list-style: none;
-  overflow-y: scroll;
 }
 .list-inline {
   padding-left: 0;
