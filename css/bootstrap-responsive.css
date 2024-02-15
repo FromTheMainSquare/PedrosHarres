@@ -1102,7 +1102,7 @@
   .navbar-scroll {
     width: 200px;
     height: 700px;
-    overflow-y: auto;
+    overflow-y: scroll;
   }
 }
 
