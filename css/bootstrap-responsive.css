@@ -8,12 +8,6 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
-.navbar-scroll {
-  width: 200px;
-  height: 200px;
-  overflow-y: auto;
-}
-
 .clearfix {
   *zoom: 1;
 }
