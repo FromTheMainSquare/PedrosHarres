@@ -233,11 +233,12 @@ header.hidden-phone {
 
 }
 
+/*
 #egomachine header.hidden-phone
 {
 	background: #000;
 }
-
+*/
 
 header.visible-phone {
 	background: #222222;
